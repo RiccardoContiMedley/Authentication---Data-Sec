@@ -35,6 +35,7 @@ public class Server extends UnicastRemoteObject implements ServerService {
 	}
 
 	// prints file filename on the specified printer
+	//random line added to test git
 	public String print(String filename, String printer, String authToken) throws RemoteException {
 		log("print: " + filename + ", " + printer + " - jwt: " + authToken);
 
